@@ -1,18 +1,16 @@
 package com.nisaefendioglu.newsapp.data
 import androidx.lifecycle.MutableLiveData
 import androidx.paging.DataSource
-import com.nisaefendioglu.newsapp.data.Article
-import com.nisaefendioglu.newsapp.data.ApiService
 import io.reactivex.disposables.CompositeDisposable
 
-class ArticleDataSourceFactory(
+class NewsDataSourceFactory(
     private val apiServiceService: ApiService,
     private val compositeDisposable: CompositeDisposable
-) : DataSource.Factory<Int, Article>() {
+) : DataSource.Factory<Int, Model>() {
 
     val newsLiveDataSource = MutableLiveData<ArticleDataSource>()
 
-    override fun create(): DataSource<Int, Article> {
+    override fun create(): DataSource<Int, Model> {
         val newsDataSource =
             ArticleDataSource(
                 apiServiceService,

@@ -8,9 +8,9 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.nisaefendioglu.newsapp.R
-import com.nisaefendioglu.newsapp.data.Article
+import com.nisaefendioglu.newsapp.data.Model
 import com.nisaefendioglu.newsapp.data.ApiService
-import com.nisaefendioglu.newsapp.data.ArticlePagedListRepository
+import com.nisaefendioglu.newsapp.data.NewsListRepository
 import com.nisaefendioglu.newsapp.util.NetworkState
 import com.nisaefendioglu.newsapp.viewmodel.NewsViewModel
 import com.nisaefendioglu.newsapp.viewmodel.NewsViewModelFactory
@@ -27,8 +27,8 @@ class NewsListFragment : Fragment(),
 
     private lateinit var newsAdapter: NewsPagedListAdapter
     private lateinit var viewModel: NewsViewModel
-    val photoRepository: ArticlePagedListRepository by lazy {
-        ArticlePagedListRepository(apiServiceService)
+    val photoRepository: NewsListRepository by lazy {
+        NewsListRepository(apiServiceService)
     }
 
     @Inject
@@ -77,9 +77,9 @@ class NewsListFragment : Fragment(),
     }
 
     override fun onNewsItemClicked(
-        article: Article?
+        model: Model?
     ) {
-        article?.let {
+        model?.let {
 
             //findNavController().navigate(
               //NewsListFragmentDirections.actionNewslistFragmentToNewsDetailFragment(

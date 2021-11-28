@@ -8,31 +8,31 @@ import com.nisaefendioglu.newsapp.di.NetworkModule.ITEM_PER_PAGE
 import com.nisaefendioglu.newsapp.util.NetworkState
 import io.reactivex.disposables.CompositeDisposable
 
-class ArticlePagedListRepository(private val apiServiceService: ApiService) {
+class NewsListRepository(private val apiServiceService: ApiService) {
 
-    lateinit var newsPagedList: LiveData<PagedList<Article>>
-    lateinit var articleDataSourceFactory: ArticleDataSourceFactory
+    lateinit var newsPagedList: LiveData<PagedList<Model>>
+    lateinit var newsDataSourceFactory: NewsDataSourceFactory
 
     fun fetchLiveSearchArticlePagedList(
         compositeDisposable: CompositeDisposable
-    ): LiveData<PagedList<Article>> {
+    ): LiveData<PagedList<Model>> {
         val config = PagedList.Config.Builder()
             .setEnablePlaceholders(false)
             .setPageSize(ITEM_PER_PAGE)
             .build()
 
-        articleDataSourceFactory = ArticleDataSourceFactory(
+        newsDataSourceFactory = NewsDataSourceFactory(
             apiServiceService,
             compositeDisposable
         )
 
-        newsPagedList = LivePagedListBuilder(articleDataSourceFactory, config).build()
+        newsPagedList = LivePagedListBuilder(newsDataSourceFactory, config).build()
         return newsPagedList
     }
 
     fun getNetworkState(): LiveData<NetworkState> {
         return Transformations.switchMap(newsPagedList, Function {
-            articleDataSourceFactory.newsLiveDataSource.value?.networkState
+            newsDataSourceFactory.newsLiveDataSource.value?.networkState
         })
     }
 }

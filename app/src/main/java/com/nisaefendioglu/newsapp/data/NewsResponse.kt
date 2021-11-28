@@ -1,11 +1,10 @@
 
 package com.nisaefendioglu.newsapp.data
 import com.google.gson.annotations.SerializedName
-import com.nisaefendioglu.newsapp.data.Article
 
 data class NewsResponse(
     @SerializedName("articles")
-    var articles: List<Article> = listOf(),
+    var models: List<Model> = listOf(),
     @SerializedName("status")
     var status: String = "",
     @SerializedName("totalResults")

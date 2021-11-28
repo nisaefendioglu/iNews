@@ -9,13 +9,13 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.news_detail.*
 import com.nisaefendioglu.newsapp.R
-import com.nisaefendioglu.newsapp.data.Article
+import com.nisaefendioglu.newsapp.data.Model
 import com.nisaefendioglu.newsapp.util.Time
 import com.nisaefendioglu.newsapp.util.loadImage
 
 class NewsDetailFragment : Fragment() {
 
-    private var item: Article? = null
+    private var item: Model? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

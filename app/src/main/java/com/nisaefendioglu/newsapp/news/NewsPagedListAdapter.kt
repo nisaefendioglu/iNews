@@ -8,14 +8,14 @@ import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.nisaefendioglu.newsapp.R
-import com.nisaefendioglu.newsapp.data.Article
+import com.nisaefendioglu.newsapp.data.Model
 import com.nisaefendioglu.newsapp.util.NetworkState
 import com.nisaefendioglu.newsapp.util.Time
 import com.nisaefendioglu.newsapp.util.loadImage
 import kotlinx.android.synthetic.main.item_news.view.*
 
 class NewsPagedListAdapter(val listener: OnNewsItemClickListener) :
-    PagedListAdapter<Article, RecyclerView.ViewHolder>(diffCallback()) {
+    PagedListAdapter<Model, RecyclerView.ViewHolder>(diffCallback()) {
 
     val PHOTO_VIEW_TYPE = 1
     val NETWORK_VIEW_TYPE = 2
@@ -61,12 +61,12 @@ class NewsPagedListAdapter(val listener: OnNewsItemClickListener) :
     }
 
 
-    class diffCallback : DiffUtil.ItemCallback<Article>() {
-        override fun areItemsTheSame(oldItem: Article, newItem: Article): Boolean {
+    class diffCallback : DiffUtil.ItemCallback<Model>() {
+        override fun areItemsTheSame(oldItem: Model, newItem: Model): Boolean {
             return oldItem.id == newItem.id
         }
 
-        override fun areContentsTheSame(oldItem: Article, newItem: Article): Boolean {
+        override fun areContentsTheSame(oldItem: Model, newItem: Model): Boolean {
             return oldItem == newItem
         }
 
@@ -81,11 +81,11 @@ class NewsPagedListAdapter(val listener: OnNewsItemClickListener) :
         val txt_news_item_des: TextView = itemView.txt_news_item_des
         val txt_news_item_source: TextView = itemView.txt_news_item_source
 
-        fun bind(article: Article?) {
+        fun bind(model: Model?) {
 
-            itemView.setOnClickListener { listener.onNewsItemClicked(article) }
+            itemView.setOnClickListener { listener.onNewsItemClicked(model) }
 
-            article?.let {
+            model?.let {
                 img_news_item.loadImage(it.urlToImage ?:"")
                 txt_news_item_title.text = it.title
                 txt_news_item_des.text = it.description
@@ -118,7 +118,7 @@ class NewsPagedListAdapter(val listener: OnNewsItemClickListener) :
 
     interface OnNewsItemClickListener {
         fun onNewsItemClicked(
-            item: Article?
+            item: Model?
         )
     }
 

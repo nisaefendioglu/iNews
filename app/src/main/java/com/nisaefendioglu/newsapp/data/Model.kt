@@ -8,7 +8,7 @@ import java.io.Serializable
 
 
 @Entity(tableName = "article")
-data class Article(
+data class Model(
 
     @PrimaryKey
     @NonNull
