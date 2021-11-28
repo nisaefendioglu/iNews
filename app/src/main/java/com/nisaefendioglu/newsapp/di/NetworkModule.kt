@@ -1,5 +1,5 @@
 package com.nisaefendioglu.newsapp.di
-import com.nisaefendioglu.newsapp.data.remote.ApiService
+import com.nisaefendioglu.newsapp.data.ApiService
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

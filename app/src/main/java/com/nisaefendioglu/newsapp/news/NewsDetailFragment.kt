@@ -1,4 +1,4 @@
-package com.nisaefendioglu.newsapp.news.detail
+package com.nisaefendioglu.newsapp.news
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -9,8 +9,9 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.news_detail.*
 import com.nisaefendioglu.newsapp.R
-import com.nisaefendioglu.newsapp.data.model.resourse.Article
-import loadImage
+import com.nisaefendioglu.newsapp.data.Article
+import com.nisaefendioglu.newsapp.util.Time
+import com.nisaefendioglu.newsapp.util.loadImage
 
 class NewsDetailFragment : Fragment() {
 
@@ -39,7 +40,7 @@ class NewsDetailFragment : Fragment() {
             imgDetail.loadImage(article.urlToImage ?:"")
             titleDetail.text = article.title
             authorDetail.text = article.getAuthorName() ?: ""
-            date.text = TimeConverter.getTimeAgo(article.publishedAt) ?: ""
+            date.text = Time.getTimeAgo(article.publishedAt) ?: ""
             description.text = article.description
             article.content?.let { contentsDetail.text = Html.fromHtml(it) }
 

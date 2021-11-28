@@ -1,13 +1,13 @@
-package com.nisaefendioglu.newsapp.data.repository
+package com.nisaefendioglu.newsapp.data
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
 import androidx.lifecycle.MutableLiveData
 import androidx.paging.PageKeyedDataSource
-import com.nisaefendioglu.newsapp.data.model.resourse.Article
+import com.nisaefendioglu.newsapp.data.Article
 import com.nisaefendioglu.newsapp.di.NetworkModule.FIRST_PAGE
 import com.nisaefendioglu.newsapp.di.NetworkModule.ITEM_PER_PAGE
-import com.nisaefendioglu.newsapp.data.remote.ApiService
+import com.nisaefendioglu.newsapp.data.ApiService
 import com.nisaefendioglu.newsapp.util.NetworkState
 
 

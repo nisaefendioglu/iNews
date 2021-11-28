@@ -2,7 +2,7 @@ package com.nisaefendioglu.newsapp.util
 import java.text.SimpleDateFormat
 import java.util.*
 
-object TimeConverter {
+object Time {
 
     private const val SECOND_MILLIS = 1000
     private const val MINUTE_MILLIS = 60 * SECOND_MILLIS

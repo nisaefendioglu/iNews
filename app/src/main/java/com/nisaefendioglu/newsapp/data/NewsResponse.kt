@@ -1,7 +1,7 @@
 
-package com.nisaefendioglu.newsapp.data.model
+package com.nisaefendioglu.newsapp.data
 import com.google.gson.annotations.SerializedName
-import com.nisaefendioglu.newsapp.data.model.resourse.Article
+import com.nisaefendioglu.newsapp.data.Article
 
 data class NewsResponse(
     @SerializedName("articles")

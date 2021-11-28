@@ -1,4 +1,4 @@
-package com.nisaefendioglu.newsapp.news.list
+package com.nisaefendioglu.newsapp.news
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -8,12 +8,12 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.nisaefendioglu.newsapp.R
-import com.nisaefendioglu.newsapp.data.model.resourse.Article
-import com.nisaefendioglu.newsapp.data.remote.ApiService
-import com.nisaefendioglu.newsapp.data.repository.ArticlePagedListRepository
+import com.nisaefendioglu.newsapp.data.Article
+import com.nisaefendioglu.newsapp.data.ApiService
+import com.nisaefendioglu.newsapp.data.ArticlePagedListRepository
 import com.nisaefendioglu.newsapp.util.NetworkState
 import com.nisaefendioglu.newsapp.viewmodel.NewsViewModel
-import com.nisaefendioglu.newsapp.viewmodel.factory.NewsViewModelFactory
+import com.nisaefendioglu.newsapp.viewmodel.NewsViewModelFactory
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.news_item_list.*
 import javax.inject.Inject

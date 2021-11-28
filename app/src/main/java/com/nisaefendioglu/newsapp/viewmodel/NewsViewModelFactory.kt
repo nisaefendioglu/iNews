@@ -1,8 +1,8 @@
-package com.nisaefendioglu.newsapp.viewmodel.factory
+package com.nisaefendioglu.newsapp.viewmodel
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.nisaefendioglu.newsapp.data.repository.ArticlePagedListRepository
+import com.nisaefendioglu.newsapp.data.ArticlePagedListRepository
 
 class NewsViewModelFactory(
     private val application: Application,

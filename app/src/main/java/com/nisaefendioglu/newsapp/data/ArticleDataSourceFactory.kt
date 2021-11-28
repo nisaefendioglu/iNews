@@ -1,9 +1,8 @@
-package com.nisaefendioglu.newsapp.data.repository
+package com.nisaefendioglu.newsapp.data
 import androidx.lifecycle.MutableLiveData
 import androidx.paging.DataSource
-import com.nisaefendioglu.newsapp.data.model.resourse.Article
-import com.nisaefendioglu.newsapp.data.remote.ApiService
-import com.nisaefendioglu.newsapp.data.repository.ArticleDataSource
+import com.nisaefendioglu.newsapp.data.Article
+import com.nisaefendioglu.newsapp.data.ApiService
 import io.reactivex.disposables.CompositeDisposable
 
 class ArticleDataSourceFactory(
