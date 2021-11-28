@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/newsListFragment">
+    <fragment
+        android:id="@+id/newsListFragment"
+        android:name="com.nisaefendioglu.newsapp.NewsListFragment"
+        tools:layout="@layout/news_item_list">
+        <action
+            android:id="@+id/action_newslistFragment_to_newsDetailFragment"
+            app:destination="@id/newsDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/newsDetailFragment"
+        android:name="com.nisaefendioglu.newsapp.NewsDetailFragment"
+        tools:layout="@layout/news_detail" >
+        <argument
+            android:name="item"
+            app:argType="com.pallaw.topnews.data.model.resourse.Article" />
+    </fragment>
+</navigation>

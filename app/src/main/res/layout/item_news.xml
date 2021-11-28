@@ -1,0 +1,77 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    app:cardCornerRadius="@dimen/cardview_default_radius"
+    app:cardElevation="@dimen/cardview_compat_inset_shadow">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_news_item"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:foreground="@drawable/randomimage"
+            android:scaleType="centerCrop"
+            app:layout_constraintDimensionRatio="H,16:9"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@tools:sample/backgrounds/scenic" />
+
+        <TextView
+            android:id="@+id/txt_news_item_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:gravity="bottom"
+            android:lines="2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="@+id/img_news_item"
+            app:layout_constraintEnd_toEndOf="@+id/img_news_item"
+            app:layout_constraintStart_toStartOf="@+id/img_news_item"
+            tools:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry." />
+
+        <TextView
+            android:id="@+id/txt_news_item_source"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:layout_constraintEnd_toEndOf="@+id/img_news_item"
+            app:layout_constraintStart_toStartOf="@+id/img_news_item"
+            app:layout_constraintTop_toBottomOf="@+id/img_news_item"
+            tools:text="aaaa" />
+
+        <TextView
+            android:id="@+id/txt_news_item_time_ago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            app:layout_constraintStart_toStartOf="@+id/txt_news_item_source"
+            app:layout_constraintTop_toBottomOf="@+id/txt_news_item_source"
+            tools:text="2021-10-02" />
+
+        <TextView
+            android:id="@+id/txt_news_item_des"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/txt_news_item_source"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/txt_news_item_source"
+            app:layout_constraintTop_toBottomOf="@+id/txt_news_item_time_ago"
+            tools:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
