@@ -1,4 +1,9 @@
-
+package com.nisaefendioglu.newsapp.news.list
+import ApiService
+import ArticlePagedListRepository
+import NewsPagedListAdapter
+import NewsViewModel
+import NewsViewModelFactory
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -6,13 +11,14 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.nisaefendioglu.newsapp.ApiClient
-import com.nisaefendioglu.newsapp.ListRepository
-import com.nisaefendioglu.newsapp.NewsArticle
-import com.nisaefendioglu.newsapp.NewsViewModel
+import androidx.navigation.fragment.NavHostFragment.findNavController
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.nisaefendioglu.newsapp.R
+import com.nisaefendioglu.newsapp.data.model.resourse.Article
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.android.synthetic.main.fragment_news_list.*
+import kotlinx.android.synthetic.main.news_item_list.*
 import javax.inject.Inject
+
 
 
 @AndroidEntryPoint
@@ -22,28 +28,26 @@ class NewsListFragment : Fragment(),
 
     private lateinit var newsAdapter: NewsPagedListAdapter
     private lateinit var viewModel: NewsViewModel
-    val photoRepository: ListRepository by lazy {
-        ListRepository(apiServiceService)
+    val photoRepository: ArticlePagedListRepository by lazy {
+        ArticlePagedListRepository(apiServiceService)
     }
 
     @Inject
-    lateinit var apiServiceService: ApiClient
+    lateinit var apiServiceService: ApiService
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.fragment_news_list, container, false)
+        val view = inflater.inflate(R.layout.news_item_list, container, false)
         return view
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        //init viewmodel
         initViewModel()
 
-        //setup news list
         setupPhotoList()
     }
 
@@ -74,15 +78,15 @@ class NewsListFragment : Fragment(),
     }
 
     override fun onNewsItemClicked(
-        article: NewsArticle?
+        article: Article?
     ) {
         article?.let {
 
-            findNavController().navigate(
-                NewsListFragmentDirections.actionNewslistFragmentToNewsDetailFragment(
-                    it
-                )
-            )
+            //findNavController().navigate(
+              //NewsListFragmentDirections.actionNewslistFragmentToNewsDetailFragment(
+                //  it
+                //)
+           //)
         }
     }
 

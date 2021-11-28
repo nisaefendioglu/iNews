@@ -1,18 +1,20 @@
-package com.nisaefendioglu.newsapp
 
-import android.util.Log
-import androidx.lifecycle.MutableLiveData
-import androidx.paging.PageKeyedDataSource
+import NetworkModule.FIRST_PAGE
+import NetworkModule.ITEM_PER_PAGE
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
+import androidx.lifecycle.MutableLiveData
+import androidx.paging.PageKeyedDataSource
+import com.nisaefendioglu.newsapp.data.model.resourse.Article
+
 
 const val DEFAULT_SEARCH_TAG = "android"
 
 class ArticleDataSource(
-    private val apiServiceService: ApiClient,
+    private val apiServiceService: ApiService,
     private val compositeDisposable: CompositeDisposable
-) : PageKeyedDataSource<Int, NewsArticle>() {
+) : PageKeyedDataSource<Int, Article>() {
 
     private var page = FIRST_PAGE
     private var TAG = ArticleDataSource::class.java.simpleName
@@ -21,7 +23,7 @@ class ArticleDataSource(
 
     override fun loadInitial(
         params: LoadInitialParams<Int>,
-        callback: LoadInitialCallback<Int, NewsArticle>
+        callback: LoadInitialCallback<Int, Article>
     ) {
 
         networkState.postValue(NetworkState.LOADING)
@@ -31,7 +33,7 @@ class ArticleDataSource(
 
     private fun fetchNews(
         page: Int,
-        callback: LoadInitialCallback<Int, NewsArticle>
+        callback: LoadInitialCallback<Int, Article>
     ): Disposable {
         return apiServiceService.fetchNews(page)
             .subscribeOn(Schedulers.io())
@@ -42,19 +44,18 @@ class ArticleDataSource(
                 },
                 {
                     networkState.postValue(NetworkState.ERROR)
-                    Log.e(TAG, it.message)
                 }
             )
     }
 
-    override fun loadAfter(params: LoadParams<Int>, callback: LoadCallback<Int, NewsArticle>) {
+    override fun loadAfter(params: LoadParams<Int>, callback: LoadCallback<Int, Article>) {
         networkState.postValue(NetworkState.LOADING)
         compositeDisposable.add(fetchMoreNews(params.key, callback))
     }
 
     private fun fetchMoreNews(
         page: Int,
-        callback: LoadCallback<Int, NewsArticle>
+        callback: LoadCallback<Int, Article>
     ): Disposable {
         return apiServiceService.fetchNews(page)
             .subscribeOn(Schedulers.io())
@@ -69,12 +70,11 @@ class ArticleDataSource(
                 },
                 {
                     networkState.postValue(NetworkState.ERROR)
-                    Log.e(TAG, it.message)
                 }
             )
     }
 
-    override fun loadBefore(params: LoadParams<Int>, callback: LoadCallback<Int, NewsArticle>) {
+    override fun loadBefore(params: LoadParams<Int>, callback: LoadCallback<Int, Article>) {
 
     }
 }

@@ -1,21 +1,21 @@
-package com.nisaefendioglu.newsapp
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.paging.PagedList
+import com.nisaefendioglu.newsapp.data.model.resourse.Article
 import io.reactivex.disposables.CompositeDisposable
 
 class NewsViewModel(
     application: Application,
-    newsRepository: ListRepository
+    newsRepository: ArticlePagedListRepository
 ) : AndroidViewModel(application) {
 
     private val compositeDisposable = CompositeDisposable()
     private val searchTag = MutableLiveData<String>()
 
-    val newsPagedList: LiveData<PagedList<NewsArticle>> by lazy {
+    val newsPagedList: LiveData<PagedList<Article>> by lazy {
         newsRepository.fetchLiveSearchArticlePagedList(compositeDisposable)
     }
 

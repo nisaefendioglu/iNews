@@ -1,12 +1,13 @@
-package com.nisaefendioglu.newsapp
-
+package com.nisaefendioglu.newsapp.news
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.navigation.ui.NavigationUI
-import kotlinx.android.synthetic.main.activity_main.*
-import dagger.hilt.android.AndroidEntryPoint
 import androidx.navigation.findNavController
+import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupWithNavController
+import com.nisaefendioglu.newsapp.R
+import dagger.hilt.android.AndroidEntryPoint
+
+import kotlinx.android.synthetic.main.activity_main.*
 
 @AndroidEntryPoint
 class NewsActivity : AppCompatActivity() {
@@ -15,6 +16,8 @@ class NewsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
+
+        //setup navigation controller
         setupNavController()
     }
 

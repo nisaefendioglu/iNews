@@ -1,11 +1,11 @@
-package com.nisaefendioglu.newsapp
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import com.google.gson.annotations.SerializedName
 
+
 @Entity(tableName = "source")
-data class NewsSource(
+data class Source(
 
     @ColumnInfo(name = "id")
     @SerializedName("id")

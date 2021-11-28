@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NewsDetailFragment">
+    tools:context=".news.detail.NewsDetailFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
@@ -53,7 +53,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/titleDetail" />
 
             <TextView
-                android:id="@+id/timeDetail"
+                android:id="@+id/date"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="Date"
@@ -64,29 +64,29 @@
                 app:layout_constraintTop_toBottomOf="@+id/authorDetail" />
 
             <TextView
-                android:id="@+id/txt_detail_des"
+                android:id="@+id/description"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="description"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                app:layout_constraintEnd_toEndOf="@+id/timeDetail"
+                app:layout_constraintEnd_toEndOf="@+id/date"
                 app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="@+id/timeDetail"
-                app:layout_constraintTop_toBottomOf="@+id/timeDetail" />
+                app:layout_constraintStart_toStartOf="@+id/date"
+                app:layout_constraintTop_toBottomOf="@+id/date" />
 
             <TextView
-                android:id="@+id/contentDetail"
+                android:id="@+id/contentsDetail"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginTop="8dp"
                 android:text="Content"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@+id/txt_detail_des"
+                app:layout_constraintEnd_toEndOf="@+id/description"
                 app:layout_constraintHorizontal_bias="0.544"
-                app:layout_constraintStart_toStartOf="@+id/txt_detail_des"
-                app:layout_constraintTop_toBottomOf="@+id/txt_detail_des" />
+                app:layout_constraintStart_toStartOf="@+id/description"
+                app:layout_constraintTop_toBottomOf="@+id/description" />
 
             <Button
                 android:id="@+id/webButon"

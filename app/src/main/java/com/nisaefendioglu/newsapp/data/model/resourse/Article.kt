@@ -1,5 +1,5 @@
-package com.nisaefendioglu.newsapp
-
+package com.nisaefendioglu.newsapp.data.model.resourse
+import Source
 import androidx.annotation.NonNull
 import androidx.room.ColumnInfo
 import androidx.room.Entity
@@ -7,8 +7,9 @@ import androidx.room.PrimaryKey
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
+
 @Entity(tableName = "article")
-data class NewsArticle(
+data class Article(
 
     @PrimaryKey
     @NonNull
@@ -33,7 +34,7 @@ data class NewsArticle(
 
     @ColumnInfo(name = "source")
     @SerializedName("source")
-    var source: NewsSource = NewsSource(),
+    var source: Source = Source(),
 
     @ColumnInfo(name = "title")
     @SerializedName("title")

@@ -7,14 +7,11 @@ import android.widget.TextView
 import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.nisaefendioglu.newsapp.NetworkState
-import com.nisaefendioglu.newsapp.NewsArticle
-import kotlinx.android.synthetic.main.item_network_state.view.*
+import com.nisaefendioglu.newsapp.R
 import kotlinx.android.synthetic.main.item_news.view.*
 
-
 class NewsPagedListAdapter(val listener: OnNewsItemClickListener) :
-    PagedListAdapter<NewsArticle, RecyclerView.ViewHolder>(diffCallback()) {
+    PagedListAdapter<Article, RecyclerView.ViewHolder>(diffCallback()) {
 
     val PHOTO_VIEW_TYPE = 1
     val NETWORK_VIEW_TYPE = 2
@@ -30,17 +27,15 @@ class NewsPagedListAdapter(val listener: OnNewsItemClickListener) :
             view = layoutInflater.inflate(R.layout.item_news, parent, false)
             return ArticleItemViewHolder(view)
         } else {
-            view = layoutInflater.inflate(R.layout.item_network_state, parent, false)
-            view.tag = listener
-            return NetworkStateItemViewHolder(view)
-        }
+            view = layoutInflater.inflate(R.layout.item_news, parent, false)
+            return ArticleItemViewHolder(view)        }
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         if (getItemViewType(position) == PHOTO_VIEW_TYPE) {
             (holder as ArticleItemViewHolder).bind(getItem(position))
         } else {
-            (holder as NetworkStateItemViewHolder).bind(networkState)
+
         }
     }
 
@@ -82,7 +77,7 @@ class NewsPagedListAdapter(val listener: OnNewsItemClickListener) :
         val txt_news_item_des: TextView = itemView.txt_news_item_des
         val txt_news_item_source: TextView = itemView.txt_news_item_source
 
-        fun bind(article: NewsArticle?) {
+        fun bind(article: Article?) {
 
             itemView.setOnClickListener { listener.onNewsItemClicked(article) }
 
@@ -97,26 +92,6 @@ class NewsPagedListAdapter(val listener: OnNewsItemClickListener) :
 
     }
 
-    class NetworkStateItemViewHolder(view: View) : RecyclerView.ViewHolder(view) {
-
-        fun bind(networkState: NetworkState?) {
-            if (networkState != null && networkState == NetworkState.LOADING) {
-                itemView.progress_bar_item.visibility = View.VISIBLE
-            } else {
-                itemView.progress_bar_item.visibility = View.GONE
-            }
-
-            if (networkState != null && networkState == NetworkState.ERROR) {
-                itemView.error_msg_item.visibility = View.VISIBLE
-                itemView.error_msg_item.text = networkState.msg
-            } else if (networkState != null && networkState == NetworkState.ENDOFLIST) {
-                itemView.error_msg_item.visibility = View.VISIBLE
-                itemView.error_msg_item.text = networkState.msg
-            } else {
-                itemView.error_msg_item.visibility = View.GONE
-            }
-        }
-    }
 
 
     fun setNetworkState(newNetworkState: NetworkState) {
@@ -126,20 +101,20 @@ class NewsPagedListAdapter(val listener: OnNewsItemClickListener) :
         val hasExtraRow = hasExtraRow()
 
         if (hadExtraRow != hasExtraRow) {
-            if (hadExtraRow) {                             //hadExtraRow is true and hasExtraRow false
-                notifyItemRemoved(super.getItemCount())    //remove the progressbar at the end
-            } else {                                       //hasExtraRow is true and hadExtraRow false
-                notifyItemInserted(super.getItemCount())   //add the progressbar at the end
+            if (hadExtraRow) {
+                notifyItemRemoved(super.getItemCount())
+            } else {
+                notifyItemInserted(super.getItemCount())
             }
-        } else if (hasExtraRow && previousState != newNetworkState) { //hasExtraRow is true and hadExtraRow true and (NetworkState.ERROR or NetworkState.ENDOFLIST)
-            notifyItemChanged(itemCount - 1)       //add the network message at the end
+        } else if (hasExtraRow && previousState != newNetworkState) {
+            notifyItemChanged(itemCount - 1)
         }
 
     }
 
     interface OnNewsItemClickListener {
         fun onNewsItemClicked(
-            item: NewsArticle?
+            item: Article?
         )
     }
 
