@@ -1,4 +1,5 @@
-
+package com.nisaefendioglu.newsapp.data.remote
+import com.nisaefendioglu.newsapp.data.model.NewsResponse
 import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Query

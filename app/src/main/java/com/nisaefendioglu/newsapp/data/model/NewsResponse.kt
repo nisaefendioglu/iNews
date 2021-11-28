@@ -1,5 +1,5 @@
 
-
+package com.nisaefendioglu.newsapp.data.model
 import com.google.gson.annotations.SerializedName
 import com.nisaefendioglu.newsapp.data.model.resourse.Article
 

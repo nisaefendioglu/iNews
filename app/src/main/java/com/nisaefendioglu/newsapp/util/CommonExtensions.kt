@@ -1,4 +1,4 @@
-
+package com.nisaefendioglu.newsapp.util
 import android.net.Uri
 import android.widget.ImageView
 import com.bumptech.glide.Glide

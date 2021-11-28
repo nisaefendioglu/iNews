@@ -1,10 +1,12 @@
-
+package com.nisaefendioglu.newsapp.viewmodel
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.paging.PagedList
 import com.nisaefendioglu.newsapp.data.model.resourse.Article
+import com.nisaefendioglu.newsapp.data.repository.ArticlePagedListRepository
+import com.nisaefendioglu.newsapp.util.NetworkState
 import io.reactivex.disposables.CompositeDisposable
 
 class NewsViewModel(

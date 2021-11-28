@@ -1,4 +1,4 @@
-
+package com.nisaefendioglu.newsapp.di
 import androidx.annotation.NonNull
 import dagger.Module
 import dagger.Provides

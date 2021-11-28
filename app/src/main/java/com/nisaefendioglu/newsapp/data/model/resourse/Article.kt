@@ -1,5 +1,4 @@
 package com.nisaefendioglu.newsapp.data.model.resourse
-import Source
 import androidx.annotation.NonNull
 import androidx.room.ColumnInfo
 import androidx.room.Entity

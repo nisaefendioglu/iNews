@@ -1,4 +1,4 @@
-
+package com.nisaefendioglu.newsapp.util
 enum class Status {
     RUNNING,
     SUCCESS,

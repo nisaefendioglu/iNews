@@ -1,4 +1,4 @@
-
+package com.nisaefendioglu.newsapp.news.list
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -8,6 +8,10 @@ import androidx.paging.PagedListAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.nisaefendioglu.newsapp.R
+import com.nisaefendioglu.newsapp.data.model.resourse.Article
+import com.nisaefendioglu.newsapp.util.NetworkState
+import com.nisaefendioglu.newsapp.util.TimeConverter
+import com.nisaefendioglu.newsapp.util.loadImage
 import kotlinx.android.synthetic.main.item_news.view.*
 
 class NewsPagedListAdapter(val listener: OnNewsItemClickListener) :

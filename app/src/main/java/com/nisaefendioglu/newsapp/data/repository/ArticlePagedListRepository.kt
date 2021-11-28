@@ -1,11 +1,13 @@
-
-import NetworkModule.ITEM_PER_PAGE
+package com.nisaefendioglu.newsapp.data.repository
 import androidx.arch.core.util.Function
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.Transformations
 import androidx.paging.LivePagedListBuilder
 import androidx.paging.PagedList
 import com.nisaefendioglu.newsapp.data.model.resourse.Article
+import com.nisaefendioglu.newsapp.data.remote.ApiService
+import com.nisaefendioglu.newsapp.di.NetworkModule.ITEM_PER_PAGE
+import com.nisaefendioglu.newsapp.util.NetworkState
 import io.reactivex.disposables.CompositeDisposable
 
 class ArticlePagedListRepository(private val apiServiceService: ApiService) {

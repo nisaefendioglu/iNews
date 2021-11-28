@@ -1,4 +1,4 @@
-
+package com.nisaefendioglu.newsapp.data.model.resourse
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import com.google.gson.annotations.SerializedName
