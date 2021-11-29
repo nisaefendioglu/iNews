@@ -14,8 +14,6 @@ implementation "com.squareup.retrofit2:adapter-rxjava2:2.8.1"
 
 implementation 'androidx.navigation:navigation-fragment:2.3.5'
 implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
-
-implementation "com.jakewharton.timber:timber:4.7.1"
 ```
 
 <br>
