@@ -16,8 +16,8 @@
         android:id="@+id/newsDetailFragment"
         android:name="com.nisaefendioglu.newsapp.news.NewsDetailFragment"
         tools:layout="@layout/news_detail" >
-        <argument
+       <!-- <argument
             android:name="item"
-            app:argType="com.pallaw.topnews.data.model.resourse.Article" />
+            app:argType="com.pallaw.topnews.data.model.resourse.Article" />-->
     </fragment>
 </navigation>
