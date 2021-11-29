@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/item_news.xml",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/layout/item_news.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/fragment_favorites.xml",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/fragment_feed.xml",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_feed.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/fragment_details.xml",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_details.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/splash_screen.xml",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/layout/splash_screen.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/incremental/mergeDevDebugResources/stripped.dir/layout/item_error_message.xml",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/layout/item_error_message.xml"
+    }
+]

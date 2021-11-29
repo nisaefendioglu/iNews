@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-anydpi-v26/app_icon.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/drawable-mdpi_placeholder_image.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/drawable-mdpi/placeholder_image.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/generated/res/pngs/dev/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-xxhdpi_app_icon.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-xxhdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-xxxhdpi_app_icon_round.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-xxxhdpi/app_icon_round.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-hdpi_app_icon.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-hdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-mdpi_app_icon_round.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-mdpi/app_icon_round.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/anim_slide_in_right.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/layout_fragment_details.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_details.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-xxhdpi_app_icon_round.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-xxhdpi/app_icon_round.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/drawable-mdpi_favorite.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/drawable-mdpi/favorite.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/layout_fragment_favorites.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_favorites.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-xhdpi_app_icon_foreground.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-xhdpi/app_icon_foreground.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/drawable-xxhdpi_baseline_close_black_20.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/drawable-xxhdpi/baseline_close_black_20.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/layout_activity_main.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/anim_slide_out_left.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/anim/slide_out_left.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/drawable-mdpi_loading.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/drawable-mdpi/loading.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/drawable-xxxhdpi_baseline_close_black_20.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/drawable-xxxhdpi/baseline_close_black_20.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-xxxhdpi_app_icon.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-xxxhdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/drawable-mdpi_newspaper.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/drawable-mdpi/newspaper.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-mdpi_app_icon.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-mdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/drawable-xhdpi_baseline_close_black_20.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/drawable-xhdpi/baseline_close_black_20.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-xxxhdpi_app_icon_foreground.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-xxxhdpi/app_icon_foreground.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/drawable-mdpi_baseline_close_black_20.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/drawable-mdpi/baseline_close_black_20.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/anim_slide_out_right.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/anim/slide_out_right.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/layout_item_news.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/layout/item_news.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-xhdpi_app_icon.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-xhdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-xxhdpi_app_icon_foreground.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-xxhdpi/app_icon_foreground.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/menu_menu.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-hdpi_app_icon_foreground.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-hdpi/app_icon_foreground.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-mdpi_app_icon_foreground.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-mdpi/app_icon_foreground.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-xhdpi_app_icon_round.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-xhdpi/app_icon_round.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/layout_splash_screen.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/layout/splash_screen.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/mipmap-hdpi_app_icon_round.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/mipmap-hdpi/app_icon_round.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/anim_slide_in_left.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/anim/slide_in_left.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/layout_item_error_message.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/layout/item_error_message.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/xml_network_settings.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/xml/network_settings.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/layout_fragment_feed.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/layout/fragment_feed.xml"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/drawable-hdpi_baseline_close_black_20.png.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/drawable-hdpi/baseline_close_black_20.png"
+    },
+    {
+        "merged": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/build/intermediates/merged_res/devDebug/navigation_navigation.xml.flat",
+        "source": "/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/res/navigation/navigation.xml"
+    }
+]

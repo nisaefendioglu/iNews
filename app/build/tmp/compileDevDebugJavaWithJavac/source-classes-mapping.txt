@@ -1,0 +1,144 @@
+com/nisaefendioglu/newsapp/api/ApiHelperImpl_Factory.java
+ com.nisaefendioglu.newsapp.api.ApiHelperImpl_Factory
+com/nisaefendioglu/newsapp/data/DAO_Impl.java
+ com.nisaefendioglu.newsapp.data.DAO_Impl
+ com.nisaefendioglu.newsapp.data.DAO_Impl$1
+ com.nisaefendioglu.newsapp.data.DAO_Impl$2
+ com.nisaefendioglu.newsapp.data.DAO_Impl$3
+ com.nisaefendioglu.newsapp.data.DAO_Impl$4
+ com.nisaefendioglu.newsapp.data.DAO_Impl$5
+ com.nisaefendioglu.newsapp.data.DAO_Impl$6
+ com.nisaefendioglu.newsapp.data.DAO_Impl$7
+com/nisaefendioglu/newsapp/App_GeneratedInjector.java
+ com.nisaefendioglu.newsapp.App_GeneratedInjector
+com/nisaefendioglu/newsapp/ui/home/HomeFragmentDirections.java
+ com.nisaefendioglu.newsapp.ui.home.HomeFragmentDirections
+ com.nisaefendioglu.newsapp.ui.home.HomeFragmentDirections$1
+ com.nisaefendioglu.newsapp.ui.home.HomeFragmentDirections$ActionFeedFragmentToDetailsFragment
+com/nisaefendioglu/newsapp/databinding/ActivityMainBinding.java
+ com.nisaefendioglu.newsapp.databinding.ActivityMainBinding
+com/nisaefendioglu/newsapp/BuildConfig.java
+ com.nisaefendioglu.newsapp.BuildConfig
+com/nisaefendioglu/newsapp/data/LocalDatabase_Impl.java
+ com.nisaefendioglu.newsapp.data.LocalDatabase_Impl
+ com.nisaefendioglu.newsapp.data.LocalDatabase_Impl$1
+com/nisaefendioglu/newsapp/ui/main/MainActivity_GeneratedInjector.java
+ com.nisaefendioglu.newsapp.ui.main.MainActivity_GeneratedInjector
+com/nisaefendioglu/newsapp/utils/NetworkHelper_Factory.java
+ com.nisaefendioglu.newsapp.utils.NetworkHelper_Factory
+com/nisaefendioglu/newsapp/App_HiltComponents.java
+ com.nisaefendioglu.newsapp.App_HiltComponents
+ com.nisaefendioglu.newsapp.App_HiltComponents$ActivityC
+ com.nisaefendioglu.newsapp.App_HiltComponents$ActivityC$Builder
+ com.nisaefendioglu.newsapp.App_HiltComponents$ActivityCBuilderModule
+ com.nisaefendioglu.newsapp.App_HiltComponents$ActivityRetainedC
+ com.nisaefendioglu.newsapp.App_HiltComponents$ActivityRetainedC$Builder
+ com.nisaefendioglu.newsapp.App_HiltComponents$ActivityRetainedCBuilderModule
+ com.nisaefendioglu.newsapp.App_HiltComponents$FragmentC
+ com.nisaefendioglu.newsapp.App_HiltComponents$FragmentC$Builder
+ com.nisaefendioglu.newsapp.App_HiltComponents$FragmentCBuilderModule
+ com.nisaefendioglu.newsapp.App_HiltComponents$ServiceC
+ com.nisaefendioglu.newsapp.App_HiltComponents$ServiceC$Builder
+ com.nisaefendioglu.newsapp.App_HiltComponents$ServiceCBuilderModule
+ com.nisaefendioglu.newsapp.App_HiltComponents$SingletonC
+ com.nisaefendioglu.newsapp.App_HiltComponents$ViewC
+ com.nisaefendioglu.newsapp.App_HiltComponents$ViewC$Builder
+ com.nisaefendioglu.newsapp.App_HiltComponents$ViewCBuilderModule
+ com.nisaefendioglu.newsapp.App_HiltComponents$ViewModelC
+ com.nisaefendioglu.newsapp.App_HiltComponents$ViewModelC$Builder
+ com.nisaefendioglu.newsapp.App_HiltComponents$ViewModelCBuilderModule
+ com.nisaefendioglu.newsapp.App_HiltComponents$ViewWithFragmentC
+ com.nisaefendioglu.newsapp.App_HiltComponents$ViewWithFragmentC$Builder
+ com.nisaefendioglu.newsapp.App_HiltComponents$ViewWithFragmentCBuilderModule
+hilt_aggregated_deps/_com_nisaefendioglu_newsapp_App_GeneratedInjector.java
+ hilt_aggregated_deps._com_nisaefendioglu_newsapp_App_GeneratedInjector
+com/nisaefendioglu/newsapp/databinding/SplashScreenBinding.java
+ com.nisaefendioglu.newsapp.databinding.SplashScreenBinding
+com/nisaefendioglu/newsapp/network/repository/NewsRepository_Factory.java
+ com.nisaefendioglu.newsapp.network.repository.NewsRepository_Factory
+com/nisaefendioglu/newsapp/Hilt_App.java
+ com.nisaefendioglu.newsapp.Hilt_App
+ com.nisaefendioglu.newsapp.Hilt_App$1
+com/nisaefendioglu/newsapp/di/CoroutinesDispatcherProvider_Factory.java
+ com.nisaefendioglu.newsapp.di.CoroutinesDispatcherProvider_Factory
+ com.nisaefendioglu.newsapp.di.CoroutinesDispatcherProvider_Factory$InstanceHolder
+com/nisaefendioglu/newsapp/ui/main/MainViewModel_HiltModules.java
+ com.nisaefendioglu.newsapp.ui.main.MainViewModel_HiltModules
+ com.nisaefendioglu.newsapp.ui.main.MainViewModel_HiltModules$BindsModule
+ com.nisaefendioglu.newsapp.ui.main.MainViewModel_HiltModules$KeyModule
+com/nisaefendioglu/newsapp/DaggerApp_HiltComponents_SingletonC.java
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$1
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$ActivityCBuilder
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$ActivityCImpl
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$ActivityRetainedCBuilder
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$ActivityRetainedCImpl
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$ActivityRetainedCImpl$SwitchingProvider
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$Builder
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$FragmentCBuilder
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$FragmentCImpl
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$ServiceCBuilder
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$ServiceCImpl
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$SwitchingProvider
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$ViewCBuilder
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$ViewCImpl
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$ViewModelCBuilder
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$ViewModelCImpl
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$ViewModelCImpl$SwitchingProvider
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$ViewWithFragmentCBuilder
+ com.nisaefendioglu.newsapp.DaggerApp_HiltComponents_SingletonC$ViewWithFragmentCImpl
+dagger/hilt/internal/processedrootsentinel/codegen/_com_nisaefendioglu_newsapp_App.java
+ dagger.hilt.internal.processedrootsentinel.codegen._com_nisaefendioglu_newsapp_App
+com/nisaefendioglu/newsapp/di/ApplicationModule_ProvideNewsApiFactory.java
+ com.nisaefendioglu.newsapp.di.ApplicationModule_ProvideNewsApiFactory
+com/nisaefendioglu/newsapp/ui/main/MainViewModel_HiltModules_KeyModule_ProvideFactory.java
+ com.nisaefendioglu.newsapp.ui.main.MainViewModel_HiltModules_KeyModule_ProvideFactory
+ com.nisaefendioglu.newsapp.ui.main.MainViewModel_HiltModules_KeyModule_ProvideFactory$InstanceHolder
+com/nisaefendioglu/newsapp/databinding/FragmentFeedBinding.java
+ com.nisaefendioglu.newsapp.databinding.FragmentFeedBinding
+com/nisaefendioglu/newsapp/di/ApplicationModule_ProvideDatabaseFactory.java
+ com.nisaefendioglu.newsapp.di.ApplicationModule_ProvideDatabaseFactory
+hilt_aggregated_deps/_com_nisaefendioglu_newsapp_ui_main_MainViewModel_HiltModules_KeyModule.java
+ hilt_aggregated_deps._com_nisaefendioglu_newsapp_ui_main_MainViewModel_HiltModules_KeyModule
+com/nisaefendioglu/newsapp/ui/main/MainViewModel_Factory.java
+ com.nisaefendioglu.newsapp.ui.main.MainViewModel_Factory
+com/nisaefendioglu/newsapp/di/ApplicationModule_ProvideApiHelperFactory.java
+ com.nisaefendioglu.newsapp.di.ApplicationModule_ProvideApiHelperFactory
+hilt_aggregated_deps/_com_nisaefendioglu_newsapp_ui_main_MainViewModel_HiltModules_BindsModule.java
+ hilt_aggregated_deps._com_nisaefendioglu_newsapp_ui_main_MainViewModel_HiltModules_BindsModule
+com/nisaefendioglu/newsapp/di/ApplicationModule_ProvideRetrofitFactory.java
+ com.nisaefendioglu.newsapp.di.ApplicationModule_ProvideRetrofitFactory
+com/nisaefendioglu/newsapp/ui/details/DetailsFragmentArgs.java
+ com.nisaefendioglu.newsapp.ui.details.DetailsFragmentArgs
+ com.nisaefendioglu.newsapp.ui.details.DetailsFragmentArgs$1
+ com.nisaefendioglu.newsapp.ui.details.DetailsFragmentArgs$Builder
+com/nisaefendioglu/newsapp/databinding/FragmentFavoritesBinding.java
+ com.nisaefendioglu.newsapp.databinding.FragmentFavoritesBinding
+com/nisaefendioglu/newsapp/ui/main/Hilt_MainActivity.java
+ com.nisaefendioglu.newsapp.ui.main.Hilt_MainActivity
+ com.nisaefendioglu.newsapp.ui.main.Hilt_MainActivity$1
+com/nisaefendioglu/newsapp/App_ComponentTreeDeps.java
+ com.nisaefendioglu.newsapp.App_ComponentTreeDeps
+hilt_aggregated_deps/_com_nisaefendioglu_newsapp_di_ApplicationModule.java
+ hilt_aggregated_deps._com_nisaefendioglu_newsapp_di_ApplicationModule
+com/nisaefendioglu/newsapp/databinding/ItemNewsBinding.java
+ com.nisaefendioglu.newsapp.databinding.ItemNewsBinding
+com/nisaefendioglu/newsapp/di/ApplicationModule_ProvideOkHttpClientFactory.java
+ com.nisaefendioglu.newsapp.di.ApplicationModule_ProvideOkHttpClientFactory
+ com.nisaefendioglu.newsapp.di.ApplicationModule_ProvideOkHttpClientFactory$InstanceHolder
+com/nisaefendioglu/newsapp/di/ApplicationModule_ProvideNewsDaoFactory.java
+ com.nisaefendioglu.newsapp.di.ApplicationModule_ProvideNewsDaoFactory
+com/nisaefendioglu/newsapp/di/ApplicationModule_ProvideRepositoryFactory.java
+ com.nisaefendioglu.newsapp.di.ApplicationModule_ProvideRepositoryFactory
+com/nisaefendioglu/newsapp/ui/favorite/FavoriteFragmentDirections.java
+ com.nisaefendioglu.newsapp.ui.favorite.FavoriteFragmentDirections
+ com.nisaefendioglu.newsapp.ui.favorite.FavoriteFragmentDirections$1
+ com.nisaefendioglu.newsapp.ui.favorite.FavoriteFragmentDirections$ActionFavoriteFragmentToDetailsFragment
+com/nisaefendioglu/newsapp/databinding/ItemErrorMessageBinding.java
+ com.nisaefendioglu.newsapp.databinding.ItemErrorMessageBinding
+hilt_aggregated_deps/_com_nisaefendioglu_newsapp_ui_main_MainActivity_GeneratedInjector.java
+ hilt_aggregated_deps._com_nisaefendioglu_newsapp_ui_main_MainActivity_GeneratedInjector
+com/nisaefendioglu/newsapp/databinding/FragmentDetailsBinding.java
+ com.nisaefendioglu.newsapp.databinding.FragmentDetailsBinding
+dagger/hilt/internal/aggregatedroot/codegen/_com_nisaefendioglu_newsapp_App.java
+ dagger.hilt.internal.aggregatedroot.codegen._com_nisaefendioglu_newsapp_App

@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">NewsApp</string>
+    <string name="app_name">News App</string>
+    <string name="favorites">Favorites</string>
+    <string name="search">Search</string>
+    <string name="error">Error</string>
+    <string name="today_news">News App</string>
+    <string name="favorite_news">Favorite News</string>
+    <string name="details">Details Page</string>
 </resources>

@@ -1,0 +1,301 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [androidx.databinding:viewbinding:7.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2c058e22414c23152c63d495db8054c6/transformed/jetified-viewbinding-7.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/nisa.fendioglu/.gradle/caches/transforms-3/09e4518e258303773d7a7a0a8c412464/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/3ebedbcfa787a171d1622dc84cfacc8b/transformed/navigation-ui-ktx-2.4.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-ui:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/f2f100dfd6fa182cd68826f6a25a65e1/transformed/navigation-ui-2.4.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.2.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/5d6985ad0cd88a81c0575d238cb37a45/transformed/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/4cd3ebf50950fa7adca5b6ad9e053db9/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/883163e3d41057e98f41b3c58d7e72db/transformed/navigation-fragment-ktx-2.4.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/8934835feed7017f91f70dc3e13b9ef2/transformed/navigation-fragment-2.4.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/3c5cb1f32eb385c38898110e06d634fe/transformed/jetified-fragment-ktx-1.4.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/53d9ef1a7f8404d23dd9815285c2b72d/transformed/navigation-runtime-ktx-2.4.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/853ca5e571428300fa46b1ce5039fb61/transformed/navigation-runtime-2.4.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/77c7ec5a09a196f9da67d2e46073aff9/transformed/jetified-activity-ktx-1.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/83cbc0e9eb3bf2612a589382b14c60a5/transformed/navigation-common-2.4.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/cff0108966efbbd9868a367fddd6b7eb/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.room:room-ktx:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/1932d2c315cc0e068ce8c9dc28f7a700/transformed/jetified-room-ktx-2.3.0-alpha04/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/567e9a98b54e77e0609e5eaed7b301a5/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/958a13086e162b148a7e2a76f336d978/transformed/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/fe0487517666f11207a060eeaf807779/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/16c27358f625c5d78f4bd7038387152d/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.38.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/b2f59de0395769184618101f6639ca5f/transformed/jetified-hilt-android-2.38.1/AndroidManifest.xml:16:1-19:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/11bcb41010db17b54d966cb12f7f320b/transformed/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/e902f50e4c272f657e74452882561c16/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.4.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/c96aa453daf3f84c0c293be1c0b6812f/transformed/espresso-idling-resource-3.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/957ddefe4ebca9cef19a967583933600/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/149252e62cb038950d236292117e2d29/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/322a9d9a641556df12451f2cf753459f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/1a055f48dde517e6b13bd02ac5427ea7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/fe3c598c86a88202d1627ebc1613dcbc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/db726a6c77544c45ab51f64ec5564c18/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/076b688927ec01fd7b946c3280384a88/transformed/fragment-1.4.0-alpha01/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/de66625707bafde3df49df685e9cd046/transformed/jetified-activity-1.2.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/7b6ee8c16430853a77e9027b84ca8d19/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/986fbc583b4e6068ae60c4ef4568b70c/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/dfcf020b4ad1467b4c952ec3c8191a99/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/01b69110914fad024997ca5ec36347c1/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/f65a5accfbba3344511dbeb955ef0517/transformed/transition-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/7cfb3e0827401f2f21ba1ad3279dbfa1/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/634a7c6a5cf0cf7f1e754faa3ed4b49d/transformed/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/d5d6286330dda1b2a740e1ff5633e93b/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/b593494fb3739a2ee1ae5aa99e44e561/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/1c8707318564d09e0f6c0719a2865a2d/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/ccfbe422a65c0001e309238f84afef3b/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/343ba999680e80799b629b959d54f5cc/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/b84af97c8a2422a09424ece7d6cb8117/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/32f4eaaed9c4bc52d502c91cb15a3af5/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/bcdf3d5cdf145153c0ccf03696eff225/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/502c3ae1b25e433c64ed176f10587db5/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/bdf6b147cb1a39bd5682f1d9755227ed/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/6447fab6b5faecaa3d6edcb74c865844/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/7575e9bf565fa06818cc8918d82060b8/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/e446b1657b5b13fd2f18f55e1f2ccde8/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/09e988136dedfcfb2490d7752b776388/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/27e8e462c71c7218f6f238f0ef28d36b/transformed/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/cc27ec5191614a368b52612212ee07be/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/b242462bd51a7f2c6a7e15411eff7e45/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/ab49abcd10dc9b6cf5c1d94058de5eb7/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/fbd3e2416fbdc89ab0e9891542abb5a4/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.38.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/1a14ffea871a041f5b27f405bfd81d49/transformed/jetified-dagger-lint-aar-2.38.1/AndroidManifest.xml:16:1-19:12
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:6:22-64
+application
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:8:5-27:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/nisa.fendioglu/.gradle/caches/transforms-3/09e4518e258303773d7a7a0a8c412464/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/nisa.fendioglu/.gradle/caches/transforms-3/09e4518e258303773d7a7a0a8c412464/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/5d6985ad0cd88a81c0575d238cb37a45/transformed/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/5d6985ad0cd88a81c0575d238cb37a45/transformed/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/567e9a98b54e77e0609e5eaed7b301a5/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/567e9a98b54e77e0609e5eaed7b301a5/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/11bcb41010db17b54d966cb12f7f320b/transformed/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/11bcb41010db17b54d966cb12f7f320b/transformed/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.3.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/634a7c6a5cf0cf7f1e754faa3ed4b49d/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/634a7c6a5cf0cf7f1e754faa3ed4b49d/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/09e988136dedfcfb2490d7752b776388/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/09e988136dedfcfb2490d7752b776388/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/b242462bd51a7f2c6a7e15411eff7e45/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/b242462bd51a7f2c6a7e15411eff7e45/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/634a7c6a5cf0cf7f1e754faa3ed4b49d/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:12:9-41
+	android:roundIcon
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:14:9-45
+	android:icon
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:11:9-40
+	android:allowBackup
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:16:9-45
+	android:networkSecurityConfig
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:13:9-62
+	android:name
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:9:9-28
+activity#com.nisaefendioglu.newsapp.SplashScreen
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:17:9-25:20
+	android:exported
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.nisaefendioglu.newsapp.ui.main.MainActivity
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:26:9-67
+	android:name
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:26:19-55
+uses-sdk
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2c058e22414c23152c63d495db8054c6/transformed/jetified-viewbinding-7.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:7.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2c058e22414c23152c63d495db8054c6/transformed/jetified-viewbinding-7.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/nisa.fendioglu/.gradle/caches/transforms-3/09e4518e258303773d7a7a0a8c412464/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/nisa.fendioglu/.gradle/caches/transforms-3/09e4518e258303773d7a7a0a8c412464/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/3ebedbcfa787a171d1622dc84cfacc8b/transformed/navigation-ui-ktx-2.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui-ktx:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/3ebedbcfa787a171d1622dc84cfacc8b/transformed/navigation-ui-ktx-2.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/f2f100dfd6fa182cd68826f6a25a65e1/transformed/navigation-ui-2.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/f2f100dfd6fa182cd68826f6a25a65e1/transformed/navigation-ui-2.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.2.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/5d6985ad0cd88a81c0575d238cb37a45/transformed/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/5d6985ad0cd88a81c0575d238cb37a45/transformed/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/4cd3ebf50950fa7adca5b6ad9e053db9/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/4cd3ebf50950fa7adca5b6ad9e053db9/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/883163e3d41057e98f41b3c58d7e72db/transformed/navigation-fragment-ktx-2.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/883163e3d41057e98f41b3c58d7e72db/transformed/navigation-fragment-ktx-2.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/8934835feed7017f91f70dc3e13b9ef2/transformed/navigation-fragment-2.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/8934835feed7017f91f70dc3e13b9ef2/transformed/navigation-fragment-2.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/3c5cb1f32eb385c38898110e06d634fe/transformed/jetified-fragment-ktx-1.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/3c5cb1f32eb385c38898110e06d634fe/transformed/jetified-fragment-ktx-1.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/53d9ef1a7f8404d23dd9815285c2b72d/transformed/navigation-runtime-ktx-2.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/53d9ef1a7f8404d23dd9815285c2b72d/transformed/navigation-runtime-ktx-2.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/853ca5e571428300fa46b1ce5039fb61/transformed/navigation-runtime-2.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/853ca5e571428300fa46b1ce5039fb61/transformed/navigation-runtime-2.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/77c7ec5a09a196f9da67d2e46073aff9/transformed/jetified-activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.2.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/77c7ec5a09a196f9da67d2e46073aff9/transformed/jetified-activity-ktx-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/83cbc0e9eb3bf2612a589382b14c60a5/transformed/navigation-common-2.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/83cbc0e9eb3bf2612a589382b14c60a5/transformed/navigation-common-2.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/cff0108966efbbd9868a367fddd6b7eb/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/cff0108966efbbd9868a367fddd6b7eb/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.room:room-ktx:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/1932d2c315cc0e068ce8c9dc28f7a700/transformed/jetified-room-ktx-2.3.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/1932d2c315cc0e068ce8c9dc28f7a700/transformed/jetified-room-ktx-2.3.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/567e9a98b54e77e0609e5eaed7b301a5/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/567e9a98b54e77e0609e5eaed7b301a5/transformed/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/958a13086e162b148a7e2a76f336d978/transformed/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/958a13086e162b148a7e2a76f336d978/transformed/jetified-lifecycle-livedata-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/fe0487517666f11207a060eeaf807779/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/fe0487517666f11207a060eeaf807779/transformed/jetified-lifecycle-viewmodel-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/16c27358f625c5d78f4bd7038387152d/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/16c27358f625c5d78f4bd7038387152d/transformed/jetified-lifecycle-runtime-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.38.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/b2f59de0395769184618101f6639ca5f/transformed/jetified-hilt-android-2.38.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.38.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/b2f59de0395769184618101f6639ca5f/transformed/jetified-hilt-android-2.38.1/AndroidManifest.xml:18:3-42
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/11bcb41010db17b54d966cb12f7f320b/transformed/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/11bcb41010db17b54d966cb12f7f320b/transformed/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/e902f50e4c272f657e74452882561c16/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/e902f50e4c272f657e74452882561c16/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.4.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/c96aa453daf3f84c0c293be1c0b6812f/transformed/espresso-idling-resource-3.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.test.espresso:espresso-idling-resource:3.4.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/c96aa453daf3f84c0c293be1c0b6812f/transformed/espresso-idling-resource-3.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/957ddefe4ebca9cef19a967583933600/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/957ddefe4ebca9cef19a967583933600/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/149252e62cb038950d236292117e2d29/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/149252e62cb038950d236292117e2d29/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/322a9d9a641556df12451f2cf753459f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/322a9d9a641556df12451f2cf753459f/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/1a055f48dde517e6b13bd02ac5427ea7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/1a055f48dde517e6b13bd02ac5427ea7/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/fe3c598c86a88202d1627ebc1613dcbc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/fe3c598c86a88202d1627ebc1613dcbc/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/db726a6c77544c45ab51f64ec5564c18/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/db726a6c77544c45ab51f64ec5564c18/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/076b688927ec01fd7b946c3280384a88/transformed/fragment-1.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/076b688927ec01fd7b946c3280384a88/transformed/fragment-1.4.0-alpha01/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/de66625707bafde3df49df685e9cd046/transformed/jetified-activity-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/de66625707bafde3df49df685e9cd046/transformed/jetified-activity-1.2.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/7b6ee8c16430853a77e9027b84ca8d19/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/7b6ee8c16430853a77e9027b84ca8d19/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/986fbc583b4e6068ae60c4ef4568b70c/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/986fbc583b4e6068ae60c4ef4568b70c/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/dfcf020b4ad1467b4c952ec3c8191a99/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/dfcf020b4ad1467b4c952ec3c8191a99/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/01b69110914fad024997ca5ec36347c1/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/01b69110914fad024997ca5ec36347c1/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/f65a5accfbba3344511dbeb955ef0517/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/f65a5accfbba3344511dbeb955ef0517/transformed/transition-1.3.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/7cfb3e0827401f2f21ba1ad3279dbfa1/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/7cfb3e0827401f2f21ba1ad3279dbfa1/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/634a7c6a5cf0cf7f1e754faa3ed4b49d/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/634a7c6a5cf0cf7f1e754faa3ed4b49d/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/d5d6286330dda1b2a740e1ff5633e93b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/d5d6286330dda1b2a740e1ff5633e93b/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/b593494fb3739a2ee1ae5aa99e44e561/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/b593494fb3739a2ee1ae5aa99e44e561/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/1c8707318564d09e0f6c0719a2865a2d/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/1c8707318564d09e0f6c0719a2865a2d/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/ccfbe422a65c0001e309238f84afef3b/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/ccfbe422a65c0001e309238f84afef3b/transformed/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/343ba999680e80799b629b959d54f5cc/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/343ba999680e80799b629b959d54f5cc/transformed/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/b84af97c8a2422a09424ece7d6cb8117/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/b84af97c8a2422a09424ece7d6cb8117/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/32f4eaaed9c4bc52d502c91cb15a3af5/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/32f4eaaed9c4bc52d502c91cb15a3af5/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/bcdf3d5cdf145153c0ccf03696eff225/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/bcdf3d5cdf145153c0ccf03696eff225/transformed/jetified-lifecycle-livedata-core-ktx-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/502c3ae1b25e433c64ed176f10587db5/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/502c3ae1b25e433c64ed176f10587db5/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/bdf6b147cb1a39bd5682f1d9755227ed/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/bdf6b147cb1a39bd5682f1d9755227ed/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/6447fab6b5faecaa3d6edcb74c865844/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/6447fab6b5faecaa3d6edcb74c865844/transformed/jetified-savedstate-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/7575e9bf565fa06818cc8918d82060b8/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/7575e9bf565fa06818cc8918d82060b8/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/e446b1657b5b13fd2f18f55e1f2ccde8/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/e446b1657b5b13fd2f18f55e1f2ccde8/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/09e988136dedfcfb2490d7752b776388/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/09e988136dedfcfb2490d7752b776388/transformed/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/27e8e462c71c7218f6f238f0ef28d36b/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/27e8e462c71c7218f6f238f0ef28d36b/transformed/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/cc27ec5191614a368b52612212ee07be/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/cc27ec5191614a368b52612212ee07be/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/b242462bd51a7f2c6a7e15411eff7e45/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/b242462bd51a7f2c6a7e15411eff7e45/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/ab49abcd10dc9b6cf5c1d94058de5eb7/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/ab49abcd10dc9b6cf5c1d94058de5eb7/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/fbd3e2416fbdc89ab0e9891542abb5a4/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/fbd3e2416fbdc89ab0e9891542abb5a4/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.38.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/1a14ffea871a041f5b27f405bfd81d49/transformed/jetified-dagger-lint-aar-2.38.1/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.38.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/1a14ffea871a041f5b27f405bfd81d49/transformed/jetified-dagger-lint-aar-2.38.1/AndroidManifest.xml:18:3-42
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:26:13-74
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79

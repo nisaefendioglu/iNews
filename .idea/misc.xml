@@ -5,13 +5,21 @@
       <map>
         <entry key="app/src/main/res/drawable/gradient_background.xml" value="0.22314814814814815" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.11828774062816616" />
+        <entry key="app/src/main/res/layout/favorites.xml" value="0.13768115942028986" />
+        <entry key="app/src/main/res/layout/fragment_details.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_favorites.xml" value="0.11828774062816616" />
+        <entry key="app/src/main/res/layout/fragment_feed.xml" value="0.11828774062816616" />
         <entry key="app/src/main/res/layout/fragment_news_detail.xml" value="0.19746376811594202" />
         <entry key="app/src/main/res/layout/fragment_news_list.xml" value="0.19746376811594202" />
+        <entry key="app/src/main/res/layout/item_error_message.xml" value="0.25" />
         <entry key="app/src/main/res/layout/item_news.xml" value="0.19746376811594202" />
         <entry key="app/src/main/res/layout/main_layout.xml" value="0.19746376811594202" />
         <entry key="app/src/main/res/layout/news_detail.xml" value="0.11828774062816616" />
         <entry key="app/src/main/res/layout/news_item_list.xml" value="0.1671195652173913" />
         <entry key="app/src/main/res/layout/splash_screen.xml" value="0.16168478260869565" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.24322916666666666" />
+        <entry key="app/src/main/res/menu/toolbar_menu.xml" value="0.15092592592592594" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/app_icon.xml" value="0.19166666666666668" />
       </map>
     </option>
   </component>

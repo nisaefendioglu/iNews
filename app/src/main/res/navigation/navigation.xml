@@ -1,23 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/nav_graph"
-    app:startDestination="@id/newsListFragment">
+    android:id="@+id/news_nav_graph"
+    app:startDestination="@id/feedFragment">
+
     <fragment
-        android:id="@+id/newsListFragment"
-        android:name="com.nisaefendioglu.newsapp.news.NewsListFragment"
-        tools:layout="@layout/news_item_list">
+        android:id="@+id/feedFragment"
+        android:name="com.nisaefendioglu.newsapp.ui.home.HomeFragment"
+        android:label="@string/today_news">
         <action
-            android:id="@+id/action_newslistFragment_to_newsDetailFragment"
-            app:destination="@id/newsDetailFragment" />
+            android:id="@+id/action_feedFragment_to_DetailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
     </fragment>
     <fragment
-        android:id="@+id/newsDetailFragment"
-        android:name="com.nisaefendioglu.newsapp.news.NewsDetailFragment"
-        tools:layout="@layout/news_detail" >
-       <!-- <argument
-            android:name="item"
-            app:argType="com.pallaw.topnews.data.model.resourse.Article" />-->
+        android:id="@+id/favoriteFragment"
+        android:name="com.nisaefendioglu.newsapp.ui.favorite.FavoriteFragment"
+        android:label="@string/favorite_news">
+        <action
+            android:id="@+id/action_favoriteFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.nisaefendioglu.newsapp.ui.details.DetailsFragment"
+        android:label="@string/details">
+        <argument
+            android:name="news"
+            app:argType="com.nisaefendioglu.newsapp.data.model.NewsArticle" />
+        <argument
+            android:name="isFromFavorite"
+            app:argType="boolean" />
     </fragment>
 </navigation>
