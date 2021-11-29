@@ -15,15 +15,10 @@ class NewsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        setSupportActionBar(toolbar)
-
-        //setup navigation controller
-        setupNavController()
     }
 
     private fun setupNavController() {
         val navController = findNavController(R.id.navigation_fragment)
         NavigationUI.setupActionBarWithNavController(this, navController)
-        toolbar.setupWithNavController(navController)
     }
 }
