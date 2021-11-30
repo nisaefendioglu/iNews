@@ -16,69 +16,75 @@
 12    <uses-permission android:name="android.permission.INTERNET" />
 12-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:6:5-67
 12-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:6:22-64
-13
-14    <application
-14-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:8:5-27:19
-15        android:name="com.nisaefendioglu.newsapp.App"
-15-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:9:9-28
-16        android:allowBackup="true"
-16-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:10:9-35
-17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.3.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/634a7c6a5cf0cf7f1e754faa3ed4b49d/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
-18        android:debuggable="true"
-19        android:icon="@mipmap/app_icon"
-19-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:11:9-40
-20        android:label="@string/app_name"
-20-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:12:9-41
-21        android:networkSecurityConfig="@xml/network_settings"
-21-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:13:9-62
-22        android:roundIcon="@mipmap/app_icon"
-22-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:14:9-45
-23        android:supportsRtl="true"
-23-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:15:9-35
-24        android:testOnly="true"
-25        android:theme="@style/Theme.NewsApp" >
-25-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:16:9-45
-26        <activity
-26-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:17:9-25:20
-27            android:name="com.nisaefendioglu.newsapp.SplashScreen"
-27-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:18:13-41
-28            android:exported="true" >
-28-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:19:13-36
-29            <intent-filter>
-29-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:20:13-24:29
-30                <action android:name="android.intent.action.MAIN" />
-30-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:21:17-69
-30-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:21:25-66
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:23:17-77
-32-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:23:27-74
-33            </intent-filter>
-34        </activity>
-35        <activity android:name="com.nisaefendioglu.newsapp.ui.main.MainActivity" />
-35-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:26:9-67
-35-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:26:19-55
-36
-37        <service
-37-->[androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:25:9-28:40
-38            android:name="androidx.room.MultiInstanceInvalidationService"
-38-->[androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:26:13-74
-39            android:directBootAware="true"
-39-->[androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:27:13-43
-40            android:exported="false" />
-40-->[androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:28:13-37
-41
-42        <provider
-42-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
-43            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-43-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
-44            android:authorities="com.nisaefendioglu.newsapp.dev.debug.lifecycle-process"
-44-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
-45            android:exported="false"
-45-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
-46            android:multiprocess="true" />
-46-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
-47    </application>
-48
-49</manifest>
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:5:5-79
+13-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:6:5-67
+14-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:6:22-64
+15
+16    <application
+16-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:13:5-32:19
+17        android:name="com.nisaefendioglu.newsapp.App"
+17-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:14:9-28
+18        android:allowBackup="true"
+18-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:15:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.3.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/634a7c6a5cf0cf7f1e754faa3ed4b49d/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/app_icon"
+21-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:16:9-40
+22        android:label="@string/app_name"
+22-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:17:9-41
+23        android:networkSecurityConfig="@xml/network_settings"
+23-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:18:9-62
+24        android:roundIcon="@mipmap/app_icon"
+24-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:19:9-45
+25        android:supportsRtl="true"
+25-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:20:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.NewsApp" >
+27-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:21:9-45
+28        <activity
+28-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:22:9-30:20
+29            android:name="com.nisaefendioglu.newsapp.SplashScreen"
+29-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:23:13-41
+30            android:exported="true" >
+30-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:24:13-36
+31            <intent-filter>
+31-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:25:13-29:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:26:17-69
+32-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:26:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:28:17-77
+34-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:28:27-74
+35            </intent-filter>
+36        </activity>
+37        <activity android:name="com.nisaefendioglu.newsapp.ui.main.MainActivity" />
+37-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:31:9-67
+37-->/Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:31:19-55
+38
+39        <service
+39-->[androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:25:9-28:40
+40            android:name="androidx.room.MultiInstanceInvalidationService"
+40-->[androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:26:13-74
+41            android:directBootAware="true"
+41-->[androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:27:13-43
+42            android:exported="false" />
+42-->[androidx.room:room-runtime:2.3.0-alpha04] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2550f64fe6b47b14f08056e691c63acb/transformed/room-runtime-2.3.0-alpha04/AndroidManifest.xml:28:13-37
+43
+44        <provider
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+45            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+45-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+46            android:authorities="com.nisaefendioglu.newsapp.dev.debug.lifecycle-process"
+46-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+47            android:exported="false"
+47-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+48            android:multiprocess="true" />
+48-->[androidx.lifecycle:lifecycle-process:2.2.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/497befbb8714ce03462ad50da2fb4fe1/transformed/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+49    </application>
+50
+51</manifest>

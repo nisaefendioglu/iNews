@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-34:12
 MERGED from [androidx.databinding:viewbinding:7.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/2c058e22414c23152c63d495db8054c6/transformed/jetified-viewbinding-7.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/nisa.fendioglu/.gradle/caches/transforms-3/09e4518e258303773d7a7a0a8c412464/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.4.0-alpha01] /Users/nisa.fendioglu/.gradle/caches/transforms-3/3ebedbcfa787a171d1622dc84cfacc8b/transformed/navigation-ui-ktx-2.4.0-alpha01/AndroidManifest.xml:17:1-24:12
@@ -64,20 +64,20 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nisa
 MERGED from [androidx.tracing:tracing:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/ab49abcd10dc9b6cf5c1d94058de5eb7/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/nisa.fendioglu/.gradle/caches/transforms-3/fbd3e2416fbdc89ab0e9891542abb5a4/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.dagger:dagger-lint-aar:2.38.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/1a14ffea871a041f5b27f405bfd81d49/transformed/jetified-dagger-lint-aar-2.38.1/AndroidManifest.xml:16:1-19:12
-INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-34:12
+INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-34:12
 	package
 		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:3:5-41
 		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:1-34:12
 		INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:2:11-69
@@ -90,7 +90,7 @@ ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/Andr
 	android:name
 		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:8:5-27:19
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:13:5-32:19
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/nisa.fendioglu/.gradle/caches/transforms-3/09e4518e258303773d7a7a0a8c412464/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/nisa.fendioglu/.gradle/caches/transforms-3/09e4518e258303773d7a7a0a8c412464/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.2.1] /Users/nisa.fendioglu/.gradle/caches/transforms-3/5d6985ad0cd88a81c0575d238cb37a45/transformed/material-1.2.1/AndroidManifest.xml:22:5-20
@@ -112,41 +112,41 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/nisa
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.2] /Users/nisa.fendioglu/.gradle/caches/transforms-3/634a7c6a5cf0cf7f1e754faa3ed4b49d/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:20:9-35
 	android:label
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:12:9-41
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:17:9-41
 	android:roundIcon
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:14:9-45
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:19:9-45
 	android:icon
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:16:9-40
 	android:allowBackup
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:16:9-45
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:21:9-45
 	android:networkSecurityConfig
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:13:9-62
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:18:9-62
 	android:name
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:9:9-28
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:14:9-28
 activity#com.nisaefendioglu.newsapp.SplashScreen
-ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:17:9-25:20
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:22:9-30:20
 	android:exported
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:19:13-36
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:18:13-41
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:23:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:28:27-74
 activity#com.nisaefendioglu.newsapp.ui.main.MainActivity
-ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:26:9-67
+ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:31:9-67
 	android:name
-		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:26:19-55
+		ADDED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml:31:19-55
 uses-sdk
 INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/nisa.fendioglu/AndroidStudioProjects/NewsApp/app/src/main/AndroidManifest.xml
