@@ -19,4 +19,4 @@ implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
 <br>
 Screenshots of the app :
 <br><br><br>
-<img width="1387" alt="Untitled" src="https://user-images.githubusercontent.com/48391281/143821262-96311caa-0982-48a0-a29b-7aae382a2538.png">
+<img width="1748" alt="Screen Shot 2021-11-30 at 08 36 35" src="https://user-images.githubusercontent.com/48391281/143992697-9b144eff-4db3-4399-9746-478e6c732bae.png">
